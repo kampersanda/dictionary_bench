@@ -2,7 +2,7 @@
 
 This software is that we used for the experiments of Sect 6.5 and Appendix A in our paper "[Dynamic Path-Decomposed Tries](https://arxiv.org/abs/1906.06015)".
 
-There are the source codes for other experiments at [https://github.com/kampersanda/poplar-trie](https://github.com/kampersanda/poplar-trie).
+There are the source codes for other experiments at [poplar-trie/bench](https://github.com/kampersanda/poplar-trie/tree/master/bench).
 
 ## Build instructions
 
