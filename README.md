@@ -9,6 +9,8 @@ There are the source codes for other experiments at [poplar-trie/bench](https://
 You can download and compile this software as the following commands.
 
 ```
+$ git clone https://github.com/kampersanda/dictionary_bench.git
+$ cd dictionary_bench
 $ mkdir build
 $ cd build
 $ cmake ..
@@ -21,7 +23,7 @@ In addition, CMake 2.8 (or greater) has to be installed to compile the library.
 On the default setting, the library attempts to use `SSE4.2` for popcount primitives.
 If you do not want to use it, please set `DISABLE_SSE4_2` at build time, e.g., `cmake .. -DDISABLE_SSE4_2=1`.
 
-For existing data structures, please install libraries [Judy](http://judy.sourceforge.net) and [sparsehash](https://github.com/sparsehash/sparsehash). The others are contained in this package.
+Please install libraries [Judy](http://judy.sourceforge.net) and [sparsehash](https://github.com/sparsehash/sparsehash). The other data structures are contained in this package.
 
 ## Running example 
 
